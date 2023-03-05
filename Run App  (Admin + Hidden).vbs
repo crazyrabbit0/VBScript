@@ -1,0 +1,1 @@
+CreateObject("Shell.Application").ShellExecute """" & WScript.Arguments(0) & """", , , "runas", 0
