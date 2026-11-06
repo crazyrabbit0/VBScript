@@ -15,3 +15,5 @@ There is no syntax checker in CI. Test by hand on Windows: `cscript //nologo "<s
 ## Commits
 
 Conventional Commits, e.g. `feat(run-app): ...`, `docs: ...`. Update the README table when a script is added, removed or changes purpose.
+
+Contributor-facing rules live in `CONTRIBUTING.md` and `.github/pull_request_template.md`; keep them in step with this file.
