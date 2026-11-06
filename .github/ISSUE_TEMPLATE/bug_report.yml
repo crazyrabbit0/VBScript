@@ -1,0 +1,30 @@
+name: Bug report
+description: A script does not work as expected
+labels: [bug]
+assignees: [crazyrabbit0]
+body:
+  - type: dropdown
+    id: script
+    attributes:
+      label: Script
+      options:
+        - 'Open Shortcut Location.vbs'
+        - 'Run App  (Admin + Hidden).vbs'
+        - 'Run App  (Hidden).vbs'
+        - 'Run App  (Wait + Hidden).vbs'
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happens, and what did you expect?
+      description: Include the steps to reproduce and any error message.
+    validations:
+      required: true
